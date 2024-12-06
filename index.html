@@ -1,41 +1,49 @@
 <!DOCTYPE html>
-<html>
-
-<header>
-    <h1>Welcome to my webpage!</h1>
-</header>
-
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Assignment on ITC</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
 <body>
-    <label for="fname">First name</label>
-    <input type="text" id="fname" name="fname"></input>
-    <label for="fname">Surname</label>
-    <input type="text" id="fname" name="fname"></input>
-    <br>
-    <label for="bpay">Enter Basic Pay</label>
-    <input type="number" id="bpay" value="3000.00" readonly name="bpay"></input>
-    <label for="working">Working</label>
-    <input type="checkbox" id="working" name="working" value="1" checked disabled></input>
-    <br>
-    <label>Gender:</label>
-    <input type="radio" id="male" name="gender" value="MALE"></input>
-    <label>Male</label>
-    <input type="radio" id="male" name="gender" value="FEMALE"></input>
-    <label>Female</label>
-    <br>
-    <label for="ylevel">Choose a car:</label>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to Raf's Space</h1>
+            <p>Where Technology, Creativity, and Wits Intersect</p>
+        </div>
+    </header>
 
-    <select name="ylevel" id="level">
-      <option value="1">1</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5</option>
+    <!-- Navigation Bar -->
+    <nav id="navigation">
+        <a href="conversion.html" id="about">Conversion</a>
+        <a href="Income Tax.html" id="blog">Income Tax Calculator</a>
+        <a href="N factorial.html" id="projects">N Factorial</a>
+        <a href="payroll.html" id="contact">Payroll</a>
+    </nav>
 
+    <!-- Main Content -->
+    <main class="content">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                Greetings! I'm <strong>Raf</strong>, a 1st Year Ateneo student studying Information Technology.
+                As I'm new to this I want to broaden my knowledge and achieve greater heights with technology, learning new skills and 
+                to be a great Fullstack Developer one day. May this serve as an experience to my growth and drive to get UpBit!
+            </p>
+            <p>
+                Explore my work, read my thoughts, and feel free to connect. Together, we can create meaningful change.
+            </p>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Rafnwel Nazh B. Sienes | Made with Love</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-
-<footer>
-    <h1>This is the footer.</h1>
-</footer>
-
 </html>
